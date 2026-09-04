@@ -9,6 +9,10 @@ public class Veiculo {
 
     // Contrutor parametrizado (em cascatas):
 
+    public Veiculo(String placa){
+        this.placa = placa;
+    }
+
     public Veiculo(String placa, String modelo){
         this.modelo = modelo;
         this.placa = placa;
@@ -57,5 +61,10 @@ public class Veiculo {
 
     public void setPlaca(String placa) {
         this.placa = placa;
+    }
+
+    @Override
+    public String toString() {
+        return placa;
     }
 }
