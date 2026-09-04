@@ -1,6 +1,12 @@
 void main() {
 
-    for(int i = 0; i <= 100; i++) {
-        IO.println("Hello World!");
-    }
+    Scanner in = new Scanner(System.in);
+
+    String placa;
+    String marca;
+    String modelo;
+    String cor;
+
+    IO.println("Digite a placa do veiculo: ");
+    placa = in.nextLine();
 }
