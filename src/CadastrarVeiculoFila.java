@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class CadastrarVeiculoFila {
 
-    private ArrayList<Veiculo> veiculos = new ArrayList<>();
+    private ArrayList<Veiculo> veiculos;
 
     public CadastrarVeiculoFila() {
         veiculos = new ArrayList<>();
