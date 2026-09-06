@@ -16,13 +16,16 @@ public class CadastrarVeiculoFila{
     }
 
     public void removerVeiculo(String placa){
+        Veiculo estacionado = new Veiculo(placa);
+        veiculos.remove(estacionado);
+        System.out.println("Veiculo removido com sucesso!");
 
-        veiculos.remove(placa);
     }
 
     public void consultarVeiculo(String placa){
-
-        veiculos.contains(placa);
+        Veiculo buscarVeiculo = new Veiculo(placa);
+        veiculos.contains(buscarVeiculo);
+        System.out.println("Veiculo consultado com sucesso!");
     }
 
     public void listarVeiculos(){
